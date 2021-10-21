@@ -15,6 +15,7 @@ namespace WebApp.Controllers
 
         public EmployeesController(WebAppContext context)
         {
+            Console.WriteLine("This is C#");
             _context = context;
         }
 
